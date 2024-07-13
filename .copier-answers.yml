@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.3
+_src_path: https://github.com/jupyterlab/extension-template.git
+author_email: fcollonval@gmail.com
+author_name: Frederic Collonval
+has_binder: true
+has_settings: false
+kind: frontend
+labextension_name: '@jupyterlab/in-context-translation'
+project_short_description: A Jupyter extension to translate the web interface directly
+    within the application.
+python_name: jupyterlab_in_context_translation
+repository: https://github.com/jupyterlab-contrib/in-context-translation
+test: true
+

@@ -2439,7 +2439,7 @@ __metadata:
     "@jupyterlab/application": ^4.0.0
     "@jupyterlab/builder": ^4.0.0
     "@jupyterlab/testutils": ^4.0.0
-    "@jupyterlab/translation": ^4.2.3
+    "@jupyterlab/translation": ^4.0.0
     "@types/jest": ^29.2.0
     "@types/json-schema": ^7.0.11
     "@types/react": ^18.0.26
@@ -2726,7 +2726,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jupyterlab/translation@npm:^4.2.3":
+"@jupyterlab/translation@npm:^4.0.0, @jupyterlab/translation@npm:^4.2.3":
   version: 4.2.3
   resolution: "@jupyterlab/translation@npm:4.2.3"
   dependencies:

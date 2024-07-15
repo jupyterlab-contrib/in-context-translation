@@ -40,7 +40,7 @@
         "clean:lintcache": "rimraf .eslintcache .stylelintcache",
         "clean:labextension": "rimraf jupyterlab_in_context_translation/labextension jupyterlab_in_context_translation/_version.py",
         "clean:all": "jlpm clean:lib && jlpm clean:labextension && jlpm clean:lintcache",
-        "fetch:crowdin": "wget https://cdn.crowdin.com/jipt/jipt.js -O lib/jipt.js",
+        "fetch:crowdin": "mkdir -p lib && wget https://cdn.crowdin.com/jipt/jipt.js -O lib/jipt.js",
         "eslint": "jlpm eslint:check --fix",
         "eslint:check": "eslint . --cache --ext .ts,.tsx",
         "install:extension": "jlpm build",

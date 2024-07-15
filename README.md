@@ -3,7 +3,7 @@
 [![Github Actions Status](https://github.com/jupyterlab-contrib/in-context-translation/workflows/Build/badge.svg)](https://github.com/jupyterlab-contrib/in-context-translation/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contrib/in-context-translation/main?urlpath=lab)
 
-A Jupyter extension to translate the web interface directly within the application using [crowdin in-context](https://support.crowdin.com/in-context-localization).
+A Jupyter extension to translate the web interface directly within the application using [crowdin in-context](https://support.crowdin.com/in-context-localization). It works for both JupyterLab and Notebook.
 
 > [!WARNING]
 > This requires a change in JupyterLab: [pending modification](https://github.com/jupyterlab/jupyterlab_server/pull/456).
@@ -12,7 +12,7 @@ A Jupyter extension to translate the web interface directly within the applicati
 
 - A free [crowdin account](https://crowdin.com/)
   - Then join to the [JupyterLab project](https://crowdin.com/project/jupyterlab)
-- JupyterLab >= 4.0.0
+- JupyterLab >= 4.0.0 or Notebook >= 7.0.0
 
 ## Install
 

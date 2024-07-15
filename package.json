@@ -33,13 +33,14 @@
         "build:prod": "jlpm clean && jlpm build:lib:prod && jlpm build:labextension",
         "build:labextension": "jupyter labextension build .",
         "build:labextension:dev": "jupyter labextension build --development True .",
-        "build:lib": "tsc --sourceMap",
-        "build:lib:prod": "tsc",
+        "build:lib": "npm run fetch:crowdin && tsc --sourceMap",
+        "build:lib:prod": "npm run fetch:crowdin && tsc",
         "clean": "jlpm clean:lib",
         "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
         "clean:lintcache": "rimraf .eslintcache .stylelintcache",
         "clean:labextension": "rimraf jupyterlab_in_context_translation/labextension jupyterlab_in_context_translation/_version.py",
         "clean:all": "jlpm clean:lib && jlpm clean:labextension && jlpm clean:lintcache",
+        "fetch:crowdin": "mkdir -p lib && wget https://cdn.crowdin.com/jipt/jipt.js -O lib/jipt.js",
         "eslint": "jlpm eslint:check --fix",
         "eslint:check": "eslint . --cache --ext .ts,.tsx",
         "install:extension": "jlpm build",
@@ -56,7 +57,8 @@
         "watch:labextension": "jupyter labextension watch ."
     },
     "dependencies": {
-        "@jupyterlab/application": "^4.0.0"
+        "@jupyterlab/application": "^4.0.0",
+        "@jupyterlab/translation": "^4.0.0"
     },
     "devDependencies": {
         "@jupyterlab/builder": "^4.0.0",

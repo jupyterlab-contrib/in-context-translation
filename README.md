@@ -40,6 +40,8 @@ pip install jupyterlab_in_context_translation
 See also the [video](./demo_in_context_translation.mp4) that illustrates
 those steps.
 
+https://github.com/user-attachments/assets/bfe0e93b-d55c-4b29-a45e-e82f9aad3757
+
 ## Uninstall
 
 To remove the extension, execute:

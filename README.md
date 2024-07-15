@@ -3,11 +3,15 @@
 [![Github Actions Status](https://github.com/jupyterlab-contrib/in-context-translation/workflows/Build/badge.svg)](https://github.com/jupyterlab-contrib/in-context-translation/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contrib/in-context-translation/main?urlpath=lab)
 
+A Jupyter extension to translate the web interface directly within the application using [crowdin in-context](https://support.crowdin.com/in-context-localization).
 
-A Jupyter extension to translate the web interface directly within the application.
+> [!WARNING]
+> This requires a change in JupyterLab: [pending modification](https://github.com/jupyterlab/jupyterlab_server/pull/456).
 
 ## Requirements
 
+- A free [crowdin account](https://crowdin.com/)
+  - Then join to the [JupyterLab project](https://crowdin.com/project/jupyterlab)
 - JupyterLab >= 4.0.0
 
 ## Install
@@ -17,6 +21,24 @@ To install the extension, execute:
 ```bash
 pip install jupyterlab_in_context_translation
 ```
+
+## Usage
+
+> [!IMPORTANT]
+> Be sure you have created an account on crowdin and joined the JupyterLab project see [Requirements](#requirements).
+
+1. Pick the _pseudo-language_ in the menu _Settings_ -> _Language_
+1. Acknowledge to save and reload the page
+1. On reload, you will be prompted to pick the language you want to translate JupyterLab into and to log in crowdin
+1. Start translating the string highlighted by a red border
+   1. Hover the string to translate
+   1. Click on the edit button that appear in the top left corner
+   1. In the dialog, type the translation
+   1. Click on _Save_ button
+1. To deactivate the feature, pick another language in the menu _Settings_ -> _Language_
+
+See also the [video](./demo_in_context_translation.mp4) that illustrates
+those steps.
 
 ## Uninstall
 

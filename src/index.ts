@@ -8,11 +8,14 @@ import { ITranslator } from '@jupyterlab/translation';
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: '@jupyterlab/in-context-translation:plugin',
-  description: 'A Jupyter extension to translate the web interface directly within the application.',
+  description:
+    'A Jupyter extension to translate the web interface directly within the application.',
   autoStart: true,
   requires: [ITranslator],
   activate: async (app: JupyterFrontEnd, translator: ITranslator) => {
-    console.log('JupyterLab extension @jupyterlab/in-context-translation is activated!');
+    console.log(
+      'JupyterLab extension @jupyterlab/in-context-translation is activated!'
+    );
 
     if (translator.languageCode === 'ach_UG') {
       // @ts-expect-error Unknown _jipt variable

@@ -1,5 +1,5 @@
 {
-    "@jupyterlab/translation-extension:plugin": {
-        "locale": "ach_UG"
-    }
+  "@jupyterlab/translation-extension:plugin": {
+    "locale": "ach_UG"
+  }
 }

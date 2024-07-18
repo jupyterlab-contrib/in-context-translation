@@ -6,7 +6,7 @@ author_name: Frederic Collonval
 has_binder: true
 has_settings: false
 kind: frontend
-labextension_name: '@jupyterlab/in-context-translation'
+labextension_name: '@jlab-contrib/in-context-translation'
 project_short_description: A Jupyter extension to translate the web interface directly
     within the application.
 python_name: jupyterlab_in_context_translation

@@ -1,7 +1,7 @@
 {
-  "name": "@jupyterlab/in-context-translation-ui-tests",
+  "name": "@jlab-contrib/in-context-translation-ui-tests",
   "version": "1.0.0",
-  "description": "JupyterLab @jupyterlab/in-context-translation Integration Tests",
+  "description": "JupyterLab @jlab-contrib/in-context-translation Integration Tests",
   "private": true,
   "scripts": {
     "start": "jupyter lab --config jupyter_server_test_config.py",

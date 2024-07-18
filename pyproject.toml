@@ -39,8 +39,8 @@ artifacts = ["jupyterlab_in_context_translation/labextension"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_in_context_translation/labextension" = "share/jupyter/labextensions/@jupyterlab/in-context-translation"
-"install.json" = "share/jupyter/labextensions/@jupyterlab/in-context-translation/install.json"
+"jupyterlab_in_context_translation/labextension" = "share/jupyter/labextensions/@jlab-contrib/in-context-translation"
+"install.json" = "share/jupyter/labextensions/@jlab-contrib/in-context-translation/install.json"
 
 [tool.hatch.build.hooks.version]
 path = "jupyterlab_in_context_translation/_version.py"

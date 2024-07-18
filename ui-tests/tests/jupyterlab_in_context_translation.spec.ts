@@ -19,7 +19,7 @@ test('should emit an activation console message', async ({ page }) => {
     logs.filter(
       s =>
         s ===
-        'JupyterLab extension @jupyterlab/in-context-translation is activated!'
+        'JupyterLab extension @jlab-contrib/in-context-translation is activated!'
     )
   ).toHaveLength(1);
 });

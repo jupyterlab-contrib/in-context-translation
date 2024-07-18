@@ -1,5 +1,5 @@
 {
-    "name": "@jupyterlab/in-context-translation",
+    "name": "@jlab-contrib/in-context-translation",
     "version": "0.1.0",
     "description": "A Jupyter extension to translate the web interface directly within the application.",
     "keywords": [

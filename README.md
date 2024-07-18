@@ -1,29 +1,27 @@
 # jupyterlab_in_context_translation
 
 [![Github Actions Status](https://github.com/jupyterlab-contrib/in-context-translation/workflows/Build/badge.svg)](https://github.com/jupyterlab-contrib/in-context-translation/actions/workflows/build.yml)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contrib/in-context-translation/main?urlpath=lab)
+[![JupyterLite JupyterLab Badge](https://img.shields.io/badge/Translate-JupyterLab-orange?logo=jupyter)](https://jupyterlab-contrib.github.io/in-context-translation/lab/index.html?path=python.ipynb)
+[![JupyterLite notebook Badge](https://img.shields.io/badge/Translate-Notebook-orange?logo=jupyter)](https://jupyterlab-contrib.github.io/in-context-translation/notebooks/index.html?path=python.ipynb)
 
 A Jupyter extension to translate the web interface directly within the application using [crowdin in-context](https://support.crowdin.com/in-context-localization). It works for both JupyterLab and Notebook.
 
-## Requirements
-
-- A free [crowdin account](https://crowdin.com/)
-  - Then join to the [JupyterLab project](https://crowdin.com/project/jupyterlab)
-- JupyterLab >= 4.0.0 or Notebook >= 7.0.0
-
-## Install
-
-To install the extension, execute:
-
-```bash
-pip install jupyterlab_in_context_translation
-```
-
 ## Usage
 
-> [!IMPORTANT]
-> Be sure you have created an account on crowdin and joined the JupyterLab project see [Requirements](#requirements).
+### No installation (recommended)
 
+1. Create a free [crowdin account](https://crowdin.com/)
+1. Join the [JupyterLab crowdin project](https://crowdin.com/project/jupyterlab)
+1. To start translating
+   1. JupyterLab: open [this link](https://jupyterlab-contrib.github.io/in-context-translation/lab/index.html?path=python.ipynb)
+   2. Notebook: open [this link](https://jupyterlab-contrib.github.io/in-context-translation/notebooks/index.html?path=python.ipynb)
+
+### Local installation as Jupyter extension
+
+1. Create a free [crowdin account](https://crowdin.com/)
+1. Join the [JupyterLab crowdin project](https://crowdin.com/project/jupyterlab)
+1. Install this extension: `pip install jupytelab notebook jupyterlab_in_context_translation`
+1. Start JupyterLab (`jupyter lab`) or Notebook (`jupyter notebook`)
 1. Pick the _pseudo-language_ in the menu _Settings_ -> _Language_
 1. Acknowledge to save and reload the page
 1. On reload, you will be prompted to pick the language you want to translate JupyterLab into and to log in crowdin
@@ -38,6 +36,20 @@ See also the [video](./demo_in_context_translation.mp4) that illustrates
 those steps.
 
 https://github.com/user-attachments/assets/bfe0e93b-d55c-4b29-a45e-e82f9aad3757
+
+## Requirements
+
+- A free [crowdin account](https://crowdin.com/)
+  - Then join to the [JupyterLab project](https://crowdin.com/project/jupyterlab)
+- JupyterLab >= 4.0.0 or Notebook >= 7.0.0
+
+## Install
+
+To install the extension, execute:
+
+```bash
+pip install jupyterlab_in_context_translation
+```
 
 ## Uninstall
 

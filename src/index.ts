@@ -4,17 +4,17 @@ import {
 } from '@jupyterlab/application';
 import { ITranslator } from '@jupyterlab/translation';
 /**
- * Initialization data for the @jupyterlab/in-context-translation extension.
+ * Initialization data for the @jlab-contrib/in-context-translation extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: '@jupyterlab/in-context-translation:plugin',
+  id: '@jlab-contrib/in-context-translation:plugin',
   description:
     'A Jupyter extension to translate the web interface directly within the application.',
   autoStart: true,
   requires: [ITranslator],
   activate: async (app: JupyterFrontEnd, translator: ITranslator) => {
     console.log(
-      'JupyterLab extension @jupyterlab/in-context-translation is activated!'
+      'JupyterLab extension @jlab-contrib/in-context-translation is activated!'
     );
 
     if (translator.languageCode === 'ach_UG') {

@@ -5,9 +5,6 @@
 
 A Jupyter extension to translate the web interface directly within the application using [crowdin in-context](https://support.crowdin.com/in-context-localization). It works for both JupyterLab and Notebook.
 
-> [!WARNING]
-> This requires a change in JupyterLab: [pending modification](https://github.com/jupyterlab/jupyterlab_server/pull/456).
-
 ## Requirements
 
 - A free [crowdin account](https://crowdin.com/)
